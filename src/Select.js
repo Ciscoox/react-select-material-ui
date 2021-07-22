@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import NoSsr from '@material-ui/core/NoSsr';
 import TextField from '@material-ui/core/TextField';
-import useTheme from '@material-ui/core/styles/useTheme';
+import { useTheme } from '@material-ui/core/styles'
 import ReactSelect from 'react-select';
 import AsyncReactSelect from 'react-select/async';
 import CreatableReactSelect from 'react-select/creatable';

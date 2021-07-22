@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import makeStyles from '@material-ui/core/styles/makeStyles';
+import { makeStyles } from '@material-ui/core/styles'
 import { emphasize } from '@material-ui/core/styles/colorManipulator';
 import Chip from '@material-ui/core/Chip';
 import SvgIcon from '@material-ui/core/SvgIcon';
